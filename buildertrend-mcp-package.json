@@ -1,0 +1,21 @@
+{
+  "name": "buildertrend-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Buildertrend via Stagehand/Browserbase - Solar Alternatives Inc.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@browserbasehq/stagehand": "latest",
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "zod": "^3.22.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
